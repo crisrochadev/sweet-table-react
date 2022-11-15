@@ -319,7 +319,7 @@ rows = { data };
 columns = { columns };
 ```
 
-- O nome da prorpiedade que você escolheu para as colunas, o padrão é <pre>title</pre>
+- O nome da prorpiedade que você escolheu para as colunas, o padrão é <code>title</code>
 
 ```javascript
    columnKey="title"
@@ -403,9 +403,9 @@ Deve ser um array de objetos com essa estrutura acima.
 Certifique-se dos seguintes pontos
 
 - Cada filtro possua um id expecifico
-- Tenha um <pre>label</pre> para exibição
-- Passar a propriedade para ser filtrada em <pre>property</pre>
-- Expecificar o filtro em <pre>filter</pre>
+- Tenha um <code>label</code> para exibição
+- Passar a propriedade para ser filtrada em <code>property</code>
+- Expecificar o filtro em <code>filter</code>
 
 * Operadores:
    <table>
@@ -462,7 +462,7 @@ Certifique-se dos seguintes pontos
            </tr>
        </tbody>
    </table>
-* Operadores lógicos <pre>logicalOparator</pre>
+* Operadores lógicos <code>logicalOparator</code>
 
 - Você pode usar operadores lógicos com a seguinte extrutura
 
@@ -476,7 +476,7 @@ logicalOparator:{
           }
 ```
 
-> Existem apenas dois operadores lógicos <pre>&&</pre>(E) e <pre>||</pre>(OU).
+> Existem apenas dois operadores lógicos <code>&&</code>(E) e <code>||</code>(OU).
 
 ### Usando sweet-table-react com next.js
 
